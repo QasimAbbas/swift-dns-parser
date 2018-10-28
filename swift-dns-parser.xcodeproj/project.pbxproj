@@ -12,6 +12,7 @@
 		96F7672C218625240054AE8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96F7672A218625240054AE8A /* Main.storyboard */; };
 		96F7672E218625240054AE8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96F7672D218625240054AE8A /* Assets.xcassets */; };
 		96F76731218625240054AE8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96F7672F218625240054AE8A /* LaunchScreen.storyboard */; };
+		96F76739218626480054AE8A /* DNS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F76738218626480054AE8A /* DNS.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		96F7672D218625240054AE8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		96F76730218625240054AE8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		96F76732218625240054AE8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96F76738218626480054AE8A /* DNS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DNS.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				96F76726218625240054AE8A /* AppDelegate.swift */,
 				96F76728218625240054AE8A /* ViewController.swift */,
+				96F76738218626480054AE8A /* DNS.swift */,
 				96F7672A218625240054AE8A /* Main.storyboard */,
 				96F7672D218625240054AE8A /* Assets.xcassets */,
 				96F7672F218625240054AE8A /* LaunchScreen.storyboard */,
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96F76739218626480054AE8A /* DNS.swift in Sources */,
 				96F76729218625240054AE8A /* ViewController.swift in Sources */,
 				96F76727218625240054AE8A /* AppDelegate.swift in Sources */,
 			);
